@@ -1,0 +1,5 @@
+requests
+ffmpeg-python
+selenium
+beautifulsoup4
+webdriver-manager
