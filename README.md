@@ -46,7 +46,7 @@ username = 'YOUR MAGOOSH USERNAME'
 password = 'YOUR MAGOOSH PASSWORD'
 ```
 
-Create a new python file
+Create a new python file. Set the path to where you would like to save you files. (Windows machines not tested if any bugs please do report!)
 ```python
 from downloader import VideoDownloader
 
@@ -54,5 +54,32 @@ video_downloader = VideoDownloader(path = path, log_to_file=False, convert_to_mp
 video_downloader.create_folders_and_download_data()
 ```
 
+```
+Now! the system will redirect you to Magoosh's website. Be patient it will fill in the login credential as provided.
+Captcha verification might appear and if it appears please verify.Once done sit back and it will parse all the lesson
+pages for the video urls. It might take around 30mins. Generally depends on your internet speed.
+
+Once done you will have a json file and the downloads will soon begun. (As of now there are around 299 videos. So have a faster internet speed!)
+```
+
+You can set the logging feature either to console log or log in a file. Finally you can also setup if you want your videos to be in mp4 rather than webm.
+
+```python
+#If you want to log into file defaults to console log
+video_downloader = VideoDownloader(path = path, log_to_file=True, convert_to_mp4= False) 
+
+#To convert to mp4 set the (Conversion to ffmpeg requires ffmpeg to be installed on your local machine! Links for the installation tutorials are below!) 
+convert_to_mp4 = True
+```
+
+```
+MAC M1: 'https://www.youtube.com/watch?v=wOZ7p7Zmz2s'
+MAC INTEL: 'https://www.youtube.com/watch?v=zl4vo0dhLRk'
+WINDOWS: 'https://www.youtube.com/watch?v=GI7JGouGPsE'
+LINUX: 'https://www.youtube.com/watch?v=tf4p-SMw5jA'
+```
+## Authors
+
+- [@Saswat Das](https://github.com/dassaswat)
 
   
