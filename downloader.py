@@ -99,6 +99,3 @@ class VideoDownloader():
 
         logging.info("All files downloaded Successfully!")
 
-
-downloader = VideoDownloader(path='/Users/saswatdas/Downloads/')
-downloader.create_folders_and_download_data()
