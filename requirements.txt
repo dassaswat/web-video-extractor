@@ -3,3 +3,4 @@ ffmpeg-python
 selenium
 beautifulsoup4
 webdriver-manager
+html5lib
