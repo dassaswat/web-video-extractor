@@ -68,7 +68,7 @@ You can set the logging feature either to console log or log in a file. Finally 
 #If you want to log into file defaults to console log
 video_downloader = VideoDownloader(path = path, log_to_file=True, convert_to_mp4= False) 
 
-#To convert to mp4 set the (Conversion to ffmpeg requires ffmpeg to be installed on your local machine! Links for the installation tutorials are below!) 
+#To convert to mp4 set the (Conversion to mp4 requires ffmpeg to be installed on your local machine! Links for the installation tutorials are below!) 
 convert_to_mp4 = True
 ```
 
