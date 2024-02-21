@@ -242,8 +242,8 @@ class MagooshVideoDataExtractor:
     def get_data_with_video_urls(self):
         
         logging.info("Welcome! We will establish a connection with magoosh and enter your credentials as provided!/nVerify the captcha if asked and we will iterate through pages to get the video URL.")
-        logging.warn("BE PATIENT IT WILL TAKE AROUND 30MINS. MAJORLY DEPEND ON YOUR NETWORK SPEED!")
-        logging.info("More more details visit 'https://github.com/dassaswat' ")
+        logging.warn("BE PATIENT IT WILL TAKE AROUND 30MINS. MAJORLY DEPEND's ON YOUR NETWORK SPEED!")
+        logging.info("For more details visit 'https://github.com/dassaswat' ")
 
         list_all_access_uri = []
         video_link_list = []
